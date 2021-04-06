@@ -5,33 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matt Hale's Portfolio</title>
+    <script src="https://kit.fontawesome.com/244f0976f7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="matt-hale-resume.pdf" target="_blank">Resume</a>
-            <a href="https://www.linkedin.com/in/matthewshale/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/matthale11" target="_blank">GitHub</a>
+        <nav class="navbar d-flex flex-row justify-content-center bg-dark p-3">
+            <h4 class="p-2"><a href="https://github.com/matthale11" target="_blank"><i class="fab fa-github"></i> GitHub</a></h4>
+            <h4 class="p-2"><a href="https://www.linkedin.com/in/matthewshale/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></h4>
+            <h4 class="p-2"><a href="matt-hale-resume.pdf" target="_blank"><i class="fas fa-file"></i> Resume</a></h4>
         </nav>
     </header>
-    <main>
+    <main class="d-flex flex-column justify-content-center p-3">
         <section>
             <h1>Matt Hale</h1>
             <h2>Code-Enabled Boostrapper Focused on Oil & Gas</h2>
-            <p>With a bachelors in mechanical engineering and MBA from Rice University, I spent over a decade in the oil and gas industry in materials research, product management, and market intelligence roles prior to founding <a href="https://factharbor.com/" target="_blank">Fact Harbor</a> in 2018. In 2021, I completed a full-stack web development bootcamp at Georgia Tech.</p>
+            <p>As a business owner with an engineering degree, MBA, and over a decade of analytical and marketing roles in the oil and gas industry, I have accumulated the knowledge to provide detailed industry news and research and built unique subscription databases which users will pay to access. Having completed a full-stack web development boot camp, I now have the programming toolkit to serve this information to my customers with the responsive analytics they value. I plan to grow my customer base of the smartest industry professionals and expand coverage by partnering with industry-leading companies and eventually hiring additional analysts.</p>
         </section>
-        <section>
-            <div>Project 1</div>
-            <div>Project 2</div>
-            <div>Project 3</div>
+        <section class="d-flex flex-row">
+            <div class="card p-2 m-2">
+                <h5 class="card-title">Bake It Til You Make It</h5>
+                <p class="card-text">This application utilizes two third-party APIs, allowing a user to see upcoming holidays, select a holiday, see recipes for that holiday, and save recipes to a list.</p>
+                <a class="card-link" href="https://github.com/julesscheil/Project-1">GitHub Repo</a>
+            </div>
+            <div class="card p-2 m-2">
+                <h5 class="card-title">Weather Dashboard</h5>
+                <p class="card-text"></p>
+                <a class="card-link" href="https://github.com/matthale11/weather-dashboard">GitHub Repo</a>
+            </div>
+            <div class="card p-2 m-2">
+                <h5 class="card-title">Work Day Scheduler</h5>
+                <p class="card-text"></p>
+                <a class="card-link" href="https://github.com/matthale11/work-day-scheduler">GitHub Repo</a>
+            </div>
         </section>
         <section>
             <h2>Contact Information</h2>
             <h3>Matthew Stephenson Hale</h3>
-            <p>Phone: +1.412.352.8747</p>
-            <p>Email: mhale@factharbor.com</p>
+            <h4><i class="fas fa-phone-square"></i> Phone: <a href="tel:+14123528747">+1.412.352.8747</a></h4>
+            <h4><i class="fas fa-envelope"></i> Email: <a href="mailto:mhale@factharbor.com">mhale@factharbor.com</a></h4>
         </section>
     </main>
 </body>
