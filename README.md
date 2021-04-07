@@ -4,4 +4,4 @@ This page utilizes Bootstrap and CSS to provide an overview of my programming ac
 
 [Matt Hale's Portfolio](https://matthale11.github.io/portfolio-page/)
 
-![Portfolio Screenshot](../screenshot.PNG)
+![Portfolio Screenshot](..screenshot.PNG)
