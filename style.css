@@ -1,4 +1,27 @@
-:root {
-    --background: #5022bd;
-    --highlight: #eda528;
+header, footer {
+    background-color: #5022bd;
+}
+
+i, a {
+    color: #eda528;
+}
+
+h1, h3 {
+    color: #eda528;
+}
+
+h2, h4, h5 {
+    color: #5022bd;
+}
+
+a:hover {
+    color: white;
+}
+
+li a {
+    color: #5022bd;
+}
+
+li a:hover {
+    color: #eda528;
 }
